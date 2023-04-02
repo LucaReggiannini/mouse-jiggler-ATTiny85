@@ -1,7 +1,8 @@
 # Mouse Jiggler (with Digispark ATTiny85)
 Simple mouse jiggler created using a Digispark ATTiny85:  
 ![./screens/ATTiny85.jpg](./screens/ATTiny85.jpg)  
-By default, simply moves the mouse 1 pixel, in sequence, "up", "down", "left" and "right".
+By default, simply moves the mouse 1 pixel, in sequence, "up", "down", "left" and "right".  
+You may need an additional USB "male/female" connector, between the device and your Digispark, to prevent false contacts.
 
 ## Notes for my Arch installation
 1. Open Arduino IDE: go to **File** -> **Preferences** -> set "**Additional Boards Manager URLs**" to "http://digistump.com/package_digistump_index.json"
